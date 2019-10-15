@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Marcus Tinney
+   Date: 10/10/2019
+	
+   Filename: br_styles.css
+
+*/
+
+
+/* HTML Styles */
+
+html{
+   background: url(br_back1.jpg) 100% / cover fixed;
+}
+
+/* Body Header Styles */
+
+body header{
+   color: rgb(230, 74, 74);
+   background-color: rgb(136, 0, 0);
+   margin: 20px auto 0px auto;
+   width: 100%;
+   padding: 20px;
+   width: 750px;
+   box-shadow: rgba(82, 0, 0, 0.75) 10px 10px 10px, rgba(82, 0, 0, 0.75) -10px -10px 10px, rgba(82, 0, 0, 0.75) -10px 10px 10px, rgba(82, 0, 0, 0.75) 10px -10px 10px;
+   background: radial-gradient(rgb(136, 0, 0) 30%, rgb(85, 0, 0));
+}
+body header img{
+   -webkit-filter: hue-rotate(100deg) brightness(0.8) drop-shadow(rgb(255, 0, 0) 0px 2px 1px) drop-shadow(rgb(190, 0, 0) 0px 4px 2px) drop-shadow(rgb(46, 0, 0) 0px 0px 10px);
+   filter: hue-rotate(100deg) brightness(0.8) drop-shadow(rgb(255, 0, 0) 0px 2px 1px) drop-shadow(rgb(190, 0, 0) 0px 4px 2px) drop-shadow(rgb(46, 0, 0) 0px 0px 10px);
+}
+body{
+   perspective: 100px;
+}
+
+/* Section Styles */
+
+section{
+   color: rgb(230, 74, 74);
+   background-color: rgb(136, 0, 0);
+   margin: 20px auto 0px auto;
+   width: 80%;
+   padding: 20px;
+   text-align: center;
+   width: 300px;
+   border: rgba(92, 0, 80, 0.3) 10px double;
+   border-radius: 25px;
+   background: linear-gradient(30deg, rgb(182, 0, 0) 30%, rgb(129, 0, 0) 60%, rgb(0, 0, 0));
+   box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px;
+   text-shadow: rgba(0, 0, 0, 0.75) 0px 0px 3px;
+   transform: rotateX(30deg);
+}
+
+/* Aside Styles */
+
+aside{
+   margin: -25px auto 0px auto;
+   width: 350px;
+}
